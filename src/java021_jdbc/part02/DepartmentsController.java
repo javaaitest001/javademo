@@ -13,4 +13,7 @@ public class DepartmentsController {
 		return service.getDepartmentsList();
 	} // end listProcess()
 	
+	public List<DepartmentsDTO> listSearchProcess(String search){
+		return service.getSearchList(search);
+	}
 } // end class
