@@ -14,11 +14,11 @@ public class DataMain {
 		dto.setLoc("경기");
 		
 		System.out.printf("%d %s %d %s\n", dto.getNum(), dto.getName(), dto.getAge(), dto.getLoc());
-		//System.out.println(dto.toString());	
-		log.info("mem", dto);
+		System.out.println(dto.toString());	
+		log.info("mem", dto.toString());
 		
-		 MemDTO mem = new MemDTO(2,"여진구", 40, "서울");
-		 System.out.println(mem.toString());
+//		 MemDTO mem = new MemDTO(2,"여진구", 40, "서울");
+//		 System.out.println(mem.toString());
 		
 	}
 

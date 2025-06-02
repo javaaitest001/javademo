@@ -1,4 +1,4 @@
-package java024_lombok.part02;
+package java024_lombok.part03;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,13 +7,13 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@Data
-//@AllArgsConstructor
-//@ToString
-//@Getter
-//@Setter
+//@Data
+@AllArgsConstructor
+@ToString
+@Getter
+@Setter
 
-//@NoArgsConstructor
+@NoArgsConstructor
 public class MemDTO {
 	private int num;
 	private String name;
